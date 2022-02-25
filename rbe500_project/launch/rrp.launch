@@ -1,0 +1,5 @@
+	
+<launch>
+  <node name="listener" pkg="rbe500_project" type="rrp_pid_test.py" output="screen"/>
+  <node name="rrpIK_server" pkg="rbe500_project" type="rrp_ik_server.py" output="screen"/>
+</launch>
